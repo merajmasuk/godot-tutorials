@@ -21,6 +21,7 @@ size = Vector3( 40, 1, 40 )
 shape = SubResource( 1 )
 
 [node name="MeshInstance" type="MeshInstance" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0336838, 0.0272903, -0.0779533 )
 mesh = SubResource( 2 )
 material/0 = null
 
@@ -28,5 +29,11 @@ material/0 = null
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0 )
 script = ExtResource( 2 )
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 0.879449, 0.475993, 0, -0.475993, 0.879449, -2.46621, 11.204, 24.7885 )
+[node name="Spatial" type="Spatial" parent="Ball"]
+transform = Transform( 1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 9.317, 12.986 )
+
+[node name="Camera" type="InterpolatedCamera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 11.204, 32.3669 )
+target = NodePath("../Ball/Spatial")
+speed = 3.0
+enabled = true
