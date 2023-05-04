@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/TactilePaving002_8K_NormalGL.jpg-8d69e2f8c5056f0dfa8a6b8e34b6570e.s3tc.stex"
+path.etc2="res://.import/TactilePaving002_8K_NormalGL.jpg-8d69e2f8c5056f0dfa8a6b8e34b6570e.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://textures/TactilePaving002_8K_NormalGL.jpg"
+dest_files=[ "res://.import/TactilePaving002_8K_NormalGL.jpg-8d69e2f8c5056f0dfa8a6b8e34b6570e.s3tc.stex", "res://.import/TactilePaving002_8K_NormalGL.jpg-8d69e2f8c5056f0dfa8a6b8e34b6570e.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=1
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
