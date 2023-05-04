@@ -29,10 +29,10 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = -570.0
-margin_top = -403.564
-margin_right = 2761.0
-margin_bottom = 676.436
+margin_left = -662.653
+margin_top = -328.728
+margin_right = 2668.35
+margin_bottom = 751.272
 rect_rotation = 5.9
 custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 0.270588, 0.854902, 0.635294, 1 )
@@ -47,10 +47,10 @@ __meta__ = {
 }
 
 [node name="button-title-play" type="Button" parent="."]
-margin_left = 910.0
-margin_top = 465.0
-margin_right = 1230.0
-margin_bottom = 625.0
+margin_left = 756.765
+margin_top = 611.107
+margin_right = 1076.77
+margin_bottom = 771.107
 custom_fonts/font = SubResource( 2 )
 custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0.580392, 0.85098, 0.188235, 1 )

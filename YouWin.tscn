@@ -1,0 +1,52 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://fonts/ThatNogoFontCasual.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://fonts/Some Time Later.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://scripts/button-yw-return.gd" type="Script" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 400
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 160
+font_data = ExtResource( 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1920.0
+margin_bottom = 1080.0
+color = Color( 0.670588, 0.929412, 0.760784, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 1914.0
+margin_bottom = 556.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.839216, 0.309804, 0.968627, 1 )
+custom_colors/font_color_shadow = Color( 0.623529, 0.133333, 0.709804, 1 )
+custom_constants/shadow_offset_x = 20
+custom_constants/shadow_offset_y = 20
+text = "YOU WIN!"
+align = 1
+valign = 1
+
+[node name="button-yw-return" type="Button" parent="."]
+margin_left = 620.066
+margin_top = 502.467
+margin_right = 1298.07
+margin_bottom = 853.467
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.168627, 0.517647, 0.411765, 1 )
+text = "Play Again"
+flat = true
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="button-yw-return" to="button-yw-return" method="_on_buttonywreturn_pressed"]
