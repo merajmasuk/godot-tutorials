@@ -5,8 +5,8 @@ extends KinematicBody
 # var a = 2
 # var b = "text"
 var velocity = Vector3(0, 0, 0)
-const SPEED = 5
-const ROTSPEED = 5
+const SPEED = 6
+const ROTSPEED = 6
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
